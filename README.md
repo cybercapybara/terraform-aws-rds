@@ -8,7 +8,7 @@ default and exposes the connection endpoint so applications can wire up to it.
 
 ```hcl
 module "rds" {
-  source = "github.com/cybercapybara/terraform-aws-rds"
+  source = "github.com/moveeeax/terraform-aws-rds"
 
   identifier = "prod-postgres"
   engine     = "postgres"
